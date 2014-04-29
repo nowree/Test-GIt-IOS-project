@@ -21,6 +21,7 @@
 		5FABBFEB190F0BC900741040 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FABBFCD190F0BC800741040 /* UIKit.framework */; };
 		5FABBFF3190F0BC900741040 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FABBFF1190F0BC900741040 /* InfoPlist.strings */; };
 		5FABBFF5190F0BC900741040 /* GitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FABBFF4190F0BC900741040 /* GitHubTests.m */; };
+		5FABC000190F6D9700741040 /* LLtest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FABBFFF190F6D9700741040 /* LLtest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5FABBFF0190F0BC900741040 /* GitHubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitHubTests-Info.plist"; sourceTree = "<group>"; };
 		5FABBFF2190F0BC900741040 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5FABBFF4190F0BC900741040 /* GitHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubTests.m; sourceTree = "<group>"; };
+		5FABBFFE190F6D9700741040 /* LLtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLtest.h; sourceTree = "<group>"; };
+		5FABBFFF190F6D9700741040 /* LLtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLtest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				5FABBFDB190F0BC800741040 /* Main.storyboard */,
 				5FABBFDE190F0BC800741040 /* LLViewController.h */,
 				5FABBFDF190F0BC800741040 /* LLViewController.m */,
+				5FABBFFE190F6D9700741040 /* LLtest.h */,
+				5FABBFFF190F6D9700741040 /* LLtest.m */,
 				5FABBFE1190F0BC800741040 /* Images.xcassets */,
 				5FABBFD0190F0BC800741040 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				5FABBFDA190F0BC800741040 /* LLAppDelegate.m in Sources */,
 				5FABBFD6190F0BC800741040 /* main.m in Sources */,
 				5FABBFE0190F0BC800741040 /* LLViewController.m in Sources */,
+				5FABC000190F6D9700741040 /* LLtest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +463,7 @@
 				5FABBFFA190F0BC900741040 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FABBFFB190F0BC900741040 /* Build configuration list for PBXNativeTarget "GitHubTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				5FABBFFD190F0BC900741040 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
